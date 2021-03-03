@@ -1,0 +1,9 @@
+E:\Projects\Inventory\Inventory_DAL\bin\Debug\netcoreapp3.1\Inventory_DAL.deps.json
+E:\Projects\Inventory\Inventory_DAL\bin\Debug\netcoreapp3.1\Inventory_DAL.dll
+E:\Projects\Inventory\Inventory_DAL\bin\Debug\netcoreapp3.1\Inventory_DAL.pdb
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.csprojAssemblyReference.cache
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.AssemblyInfoInputs.cache
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.AssemblyInfo.cs
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.csproj.CoreCompileInputs.cache
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.dll
+E:\Projects\Inventory\Inventory_DAL\obj\Debug\netcoreapp3.1\Inventory_DAL.pdb
