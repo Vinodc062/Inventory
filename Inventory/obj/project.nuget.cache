@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WOGA+2qn3AHcO9tTROpeEC33vGkki1QYIbTe5gjvrCL4swYCfsn7UBtpFYuR0Xi/FkW5eCjg70XXkcB/oawIw==",
+  "dgSpecHash": "FBa6g1TCp73ELR8aO0jwAtNLeZeIsSDdCXrlyxzl0tSmC1omOlgO6r+hFb3gwOxTP8CSIz789I4wKLXg5Eb2sA==",
   "success": true,
-  "projectFilePath": "C:\\Vinod\\Personal\\Inventory\\Inventory\\Inventory.csproj",
+  "projectFilePath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\Inventory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chandavk\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\chandavk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

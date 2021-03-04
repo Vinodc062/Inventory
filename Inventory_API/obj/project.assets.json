@@ -755,11 +755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vinod\\Personal\\Inventory\\Inventory_API\\Inventory_API.csproj",
+      "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\Inventory_API.csproj",
       "projectName": "Inventory_API",
-      "projectPath": "C:\\Vinod\\Personal\\Inventory\\Inventory_API\\Inventory_API.csproj",
+      "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\Inventory_API.csproj",
       "packagesPath": "C:\\Users\\chandavk\\.nuget\\packages\\",
-      "outputPath": "C:\\Vinod\\Personal\\Inventory\\Inventory_API\\obj\\",
+      "outputPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -779,8 +779,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Vinod\\Personal\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj": {
-              "projectPath": "C:\\Vinod\\Personal\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj"
+            "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj": {
+              "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj"
             }
           }
         }

@@ -30,6 +30,7 @@ namespace Inventory_API
 
             services.AddControllers();
             services.AddSingleton<IInventoryConfig, InventoryConfig>();
+            services.Configure<String>(Configuration.GetSection("ConnectionStrings:InventoryConnectionString"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Inventory_API", Version = "v1" });

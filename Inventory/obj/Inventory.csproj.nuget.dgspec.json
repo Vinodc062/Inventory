@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Vinod\\Personal\\Inventory\\Inventory\\Inventory.csproj": {}
+    "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\Inventory.csproj": {}
   },
   "projects": {
-    "C:\\Vinod\\Personal\\Inventory\\Inventory\\Inventory.csproj": {
+    "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vinod\\Personal\\Inventory\\Inventory\\Inventory.csproj",
+        "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\Inventory.csproj",
         "projectName": "Inventory",
-        "projectPath": "C:\\Vinod\\Personal\\Inventory\\Inventory\\Inventory.csproj",
+        "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\Inventory.csproj",
         "packagesPath": "C:\\Users\\chandavk\\.nuget\\packages\\",
-        "outputPath": "C:\\Vinod\\Personal\\Inventory\\Inventory\\obj\\",
+        "outputPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,7 +10,7 @@ namespace Inventory_DAL
     public interface IInventoryConfig
     {
         String SQLConnection { get; }
-        String GetConnectionString(String Connection);
+       // String GetConnectionString();
         IConfigurationSection GetConfigurationSection(string Key);
     }
 }

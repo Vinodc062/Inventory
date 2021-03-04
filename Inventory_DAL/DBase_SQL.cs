@@ -19,10 +19,10 @@ namespace Inventory_DAL
         DataSet ds;
         SqlCommand Sqlcomm;
 
-        public DBase_SQL()
+        public DBase_SQL(IConfiguration configuration)
         {
            inventoryConfig = new InventoryConfig(configuration);
-            this._sqlcon = new SqlConnection(inventoryConfig.GetConnectionString(inventoryConfig.SQLConnection));
+            this._sqlcon = new SqlConnection(inventoryConfig.SQLConnection);
         }
 
         public int ExecuteQuery(string Query)

@@ -21,10 +21,10 @@ namespace Inventory_DAL
             this._configuration = configuration;
         }
 
-        public string GetConnectionString(string Connection)
-        {
-            return this._configuration.GetConnectionString(Connection);
-        }
+        //public string GetConnectionString()
+        //{
+        //    return this._configuration.GetConnectionString(SQLConnection);
+        //}
 
         public IConfigurationSection GetConfigurationSection(string Key)
         {
