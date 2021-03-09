@@ -1,14 +1,14 @@
-﻿using Inventory_DAL.TableObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 using System.Data;
-using Inventory_DAL.AccessObject;
+using ProTracker_DAL.AccessObject;
+using ProTracker_DAL.TableObjects;
 
-namespace Inventory_DAL
+namespace ProTracker_DAL
 {
     public class clsUsers : IUser
     {
@@ -18,6 +18,12 @@ namespace Inventory_DAL
         public clsUsers(Interfaces.IDbase dbase)
         {
             caObjects = new clsAccessDBObjects(dbase);
+        }
+
+        public Int32 AuthenticateUser(Authenticate authenticate)
+        {
+            Query = "EXEC proc_AuthenticateUser '" + authenticate.UserName + "','" + authenticate.Password + "'";
+            return Convert.ToInt32(caObjects.ExecuteScalar(Query));
         }
 
         public string CreateUser(User user)

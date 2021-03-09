@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-using Inventory_DAL.TableObjects;
+using ProTracker_DAL.TableObjects;
 
-namespace Inventory_DAL.AccessObject
+namespace ProTracker_DAL.AccessObject
 {
     public class clsAccessUser
     {
@@ -24,6 +24,11 @@ namespace Inventory_DAL.AccessObject
         public String GetUser(int User_id)
         {
             return _user.GetUser(User_id);
+        }
+
+        public Int32 AuthenticateUser(Authenticate authenticate)
+        {
+            return _user.AuthenticateUser(authenticate);
         }
     }
 }

@@ -555,9 +555,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj",
-      "projectName": "Inventory_DAL",
-      "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj",
+      "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\ProTracker_DAL.csproj",
+      "projectName": "ProTracker_DAL",
+      "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\ProTracker_DAL.csproj",
       "packagesPath": "C:\\Users\\chandavk\\.nuget\\packages\\",
       "outputPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\obj\\",
       "projectStyle": "PackageReference",

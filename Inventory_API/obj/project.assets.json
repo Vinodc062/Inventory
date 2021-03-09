@@ -239,7 +239,7 @@
           }
         }
       },
-      "Inventory_DAL/1.0.0": {
+      "ProTracker_DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -248,10 +248,10 @@
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
-          "bin/placeholder/Inventory_DAL.dll": {}
+          "bin/placeholder/ProTracker_DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Inventory_DAL.dll": {}
+          "bin/placeholder/ProTracker_DAL.dll": {}
         }
       }
     }
@@ -736,15 +736,15 @@
         "version.txt"
       ]
     },
-    "Inventory_DAL/1.0.0": {
+    "ProTracker_DAL/1.0.0": {
       "type": "project",
-      "path": "../Inventory_DAL/Inventory_DAL.csproj",
-      "msbuildProject": "../Inventory_DAL/Inventory_DAL.csproj"
+      "path": "../Inventory_DAL/ProTracker_DAL.csproj",
+      "msbuildProject": "../Inventory_DAL/ProTracker_DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Inventory_DAL >= 1.0.0",
+      "ProTracker_DAL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -755,9 +755,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\Inventory_API.csproj",
-      "projectName": "Inventory_API",
-      "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\Inventory_API.csproj",
+      "projectUniqueName": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\ProTracker_API.csproj",
+      "projectName": "ProTracker_API",
+      "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\ProTracker_API.csproj",
       "packagesPath": "C:\\Users\\chandavk\\.nuget\\packages\\",
       "outputPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_API\\obj\\",
       "projectStyle": "PackageReference",
@@ -779,8 +779,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj": {
-              "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\Inventory_DAL.csproj"
+            "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\ProTracker_DAL.csproj": {
+              "projectPath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\ProTracker_DAL.csproj"
             }
           }
         }

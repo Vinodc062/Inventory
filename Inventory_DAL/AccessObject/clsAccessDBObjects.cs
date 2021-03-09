@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Data;
-using Inventory_DAL.Interfaces;
+using ProTracker_DAL.Interfaces;
 
-namespace Inventory_DAL.AccessObject
+namespace ProTracker_DAL.AccessObject
 {
     public class clsAccessDBObjects
     {
@@ -29,6 +29,11 @@ namespace Inventory_DAL.AccessObject
         public int ExecuteQuery(string Query)
         {
             return _dbase.ExecuteQuery(Query);
+        }
+
+        public dynamic ExecuteScalar(string Query)
+        {
+            return _dbase.ExecuteScalar(Query);
         }
     }
 }

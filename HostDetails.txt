@@ -1,0 +1,4 @@
+1. Create a AppPool
+	i) Provide Name
+	ii) .Net CLR Version = No Managed Code
+	iii) Managed Pipeline Mode = Integrated

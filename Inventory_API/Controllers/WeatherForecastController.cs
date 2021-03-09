@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inventory_DAL;
+using ProTracker_DAL;
 
-namespace Inventory_API.Controllers
+namespace ProTracker_API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

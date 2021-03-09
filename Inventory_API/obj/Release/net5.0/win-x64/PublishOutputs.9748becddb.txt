@@ -1,0 +1,15 @@
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_API.exe
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.json
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_API.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_API.deps.json
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_API.runtimeconfig.json
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_API.pdb
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\System.Data.SqlClient.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\sni.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_DAL.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Release\net5.0\win-x64\PubTmp\Out\ProTracker_DAL.pdb

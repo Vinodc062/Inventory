@@ -1,0 +1,14 @@
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\bin\Debug\net5.0\ProTracker_DAL.deps.json
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\bin\Debug\net5.0\ProTracker_DAL.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\bin\Debug\net5.0\ref\ProTracker_DAL.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\bin\Debug\net5.0\ProTracker_DAL.pdb
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.csprojAssemblyReference.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.Properties.Resources.resources
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.csproj.GenerateResource.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.AssemblyInfoInputs.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.AssemblyInfo.cs
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.csproj.CoreCompileInputs.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ref\ProTracker_DAL.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_DAL\obj\Debug\net5.0\ProTracker_DAL.pdb

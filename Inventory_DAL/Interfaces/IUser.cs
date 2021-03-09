@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Inventory_DAL.TableObjects;
+using ProTracker_DAL.TableObjects;
 
-namespace Inventory_DAL
+namespace ProTracker_DAL
 {
    public interface IUser
     {
         String CreateUser(User user);
         String GetUser(int User_id);
+
+        Int32 AuthenticateUser(Authenticate authenticate);
 
     }
 }

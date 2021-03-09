@@ -1,6 +1,6 @@
 using System;
 
-namespace Inventory_API
+namespace ProTracker_API
 {
     public class WeatherForecast
     {

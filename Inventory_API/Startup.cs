@@ -11,9 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inventory_DAL;
+using ProTracker_DAL;
 
-namespace Inventory_API
+namespace ProTracker_API
 {
     public class Startup
     {
@@ -29,11 +29,11 @@ namespace Inventory_API
         {
 
             services.AddControllers();
-            services.AddSingleton<IInventoryConfig, InventoryConfig>();
-            services.Configure<String>(Configuration.GetSection("ConnectionStrings:InventoryConnectionString"));
+            services.AddSingleton<IProTrackerConfig, ProTrackerConfig>();
+            //services.Configure<String>(Configuration.GetSection("ConnectionStrings:ProTrackerConnectionString"));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Inventory_API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProTracker_API", Version = "v1" });
             });
         }
 
@@ -44,7 +44,7 @@ namespace Inventory_API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Inventory_API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProTracker_API v1"));
             }
 
             app.UseHttpsRedirection();

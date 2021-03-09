@@ -4,25 +4,26 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Inventory_DAL.Interfaces;
+using ProTracker_DAL.Interfaces;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using ProTracker_DAL;
 
-namespace Inventory_DAL
+namespace ProTracker_DAL
 {
-   public class DBase_SQL : IDbase
+    public class DBase_SQL : IDbase
     {
         SqlConnection _sqlcon;
         IConfiguration configuration;
-        IInventoryConfig inventoryConfig;
+        IProTrackerConfig proTrackerConfig;
         SqlDataAdapter sqlda;
         DataSet ds;
         SqlCommand Sqlcomm;
 
         public DBase_SQL(IConfiguration configuration)
         {
-           inventoryConfig = new InventoryConfig(configuration);
-            this._sqlcon = new SqlConnection(inventoryConfig.SQLConnection);
+            proTrackerConfig = new ProTrackerConfig(configuration);
+            _sqlcon = new SqlConnection(proTrackerConfig.SQLConnection);
         }
 
         public int ExecuteQuery(string Query)
@@ -53,9 +54,15 @@ namespace Inventory_DAL
             ds = new DataSet();
             sqlda = new SqlDataAdapter(Query, _sqlcon);
             sqlda.Fill(ds);
-            
+
             return ds.Tables[0];
         }
 
+        public dynamic ExecuteScalar(string Query)
+        {
+            checkConnection();
+            Sqlcomm = new SqlCommand(Query, _sqlcon);
+            return Sqlcomm.ExecuteScalar().ToString();
+        }
     }
 }

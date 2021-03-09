@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 
-namespace Inventory_DAL.Interfaces
+namespace ProTracker_DAL.Interfaces
 {
     public interface IDbase
     {
@@ -15,6 +15,8 @@ namespace Inventory_DAL.Interfaces
         DataTable ExecuteQueryReturnDataTable(String Query);
 
         int ExecuteQuery(String Query);
+
+        dynamic ExecuteScalar(String Query);
 
     }
 }
