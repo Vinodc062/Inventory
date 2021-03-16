@@ -8,7 +8,7 @@ using ProTracker_DAL.AccessObject;
 using ProTracker_DAL.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
-using ProTracker_DAL.TableObjects;
+using ProTracker_TO;
 
 namespace ProTracker_API.Controllers
 {

@@ -1,4 +1,4 @@
-﻿using ProTracker_DAL.TableObjects;
+﻿using ProTracker_TO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +11,6 @@ namespace ProTracker_UI.Services
 {
     public class clsLogin : ILogin
     {
-        public String _userId { get; set; }
-        public String _password { get; set; }
-
         private readonly HttpClient _httpClient;
         public clsLogin(IHttpClientFactory httpClientFactory)
         {
@@ -21,9 +18,6 @@ namespace ProTracker_UI.Services
         }
         public async Task<Int32> Authenticateuser(Authenticate authenticate)
         {
-         //   String Jsonobj = JsonConvert.SerializeObject(authenticate); 
-           // String Jsonobj = "{ \"UserName\": \"vinod.c062\",\"password\": \"vinod.c062\"}";
-
            Int32 i = await _httpClient.PostJsonAsync<Int32>("api/Login/AuthenticateUser", authenticate);
             return i;
         }

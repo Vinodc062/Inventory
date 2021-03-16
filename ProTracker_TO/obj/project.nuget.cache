@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MbaSf8N1WoPVrWM3AH3wbNSQO+HqWDQONSeG6/7psJF0vt/cYqhjAs3JjUd+bI9RW7S/M6LcQKp4feCZG2nE9A==",
+  "success": true,
+  "projectFilePath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\ProTracker_TO\\ProTracker_TO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\chandavk\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

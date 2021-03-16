@@ -11,6 +11,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ProTracker_UI.Services;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Components.Authorization;
+using ProTracker_UI.Data;
 
 namespace ProTracker_UI
 {
@@ -30,7 +33,14 @@ namespace ProTracker_UI
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddScoped<ILogin, clsLogin>();
+            services.AddScoped<IRoles, clsRoles>();
+            services.AddScoped<IRackMaster, clsRackMaster>();
+            services.AddScoped<IVehicle, clsVehicle>();
             services.AddHttpClient("ProTrackerAPI",client => client.BaseAddress = new Uri(Configuration["ProTracker_WebAPI"]));
+
+          //  services.AddScoped<AuthenticationStateProvider, CustAuthenticationState>();
+
+                
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +61,8 @@ namespace ProTracker_UI
             app.UseStaticFiles();
 
             app.UseRouting();
+            //app.UseAuthentication();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

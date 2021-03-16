@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using ProTracker_DAL.TableObjects;
 using Newtonsoft.Json;
 using ProTracker_UI.Services;
+using ProTracker_TO;
 
 namespace ProTracker_UI.Pages
 {
@@ -33,7 +33,6 @@ namespace ProTracker_UI.Pages
             }
             catch (Exception ex)
             {
-
                  throw ex;
             }
             return i;

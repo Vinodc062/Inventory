@@ -1,0 +1,77 @@
+﻿@page "/VehicleMaster"
+<h3>Vehicle Master</h3>
+<body>
+    <EditForm Model="vehicleMaster">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group row">
+            <label for="lblVehicleId" class="col-sm-2 col-form-label">Vehicle Id</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="vehicleMaster.vm_Vehicle_Id" readonly class="form-control-plaintext border" id="txtVehicleId">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <ValidationMessage For=" () => vehicleMaster.vm_Vehicle_Number" />
+            <label for="lblVehicleNumber" class="col-sm-2 col-form-label">Vehicle Number</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="vehicleMaster.vm_Vehicle_Number" class="form-control-plaintext border" id="txtVehicleNumber">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <ValidationMessage For=" () => vehicleMaster.vm_Vehicle_desc" />
+            <label for="lblVehicleDesc" class="col-sm-2 col-form-label">Vehicle Desc</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="vehicleMaster.vm_Vehicle_desc" class="form-control-plaintext border" id="txtVehicleDesc">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="lblVehicleStatus" class="col-sm-2 col-form-label">Status</label>
+            <div class="col-sm-5">
+                <input type="checkbox" @bind="vehicleMaster.vm_Status" class="form-control-plaintext border align-content-lg-start" id="chkVehicleStatus">
+            </div>
+        </div>
+        <div class="form-group row">
+            <button type="submit" @onclick="@Createvehicle" class="btn btn-primary">Save</button>
+            <div class="col-sm-5">
+                <button class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+        <div>
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Filter..."
+                       @bind="Filter"
+                       @bind:event="oninput">
+            </div>
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Vehicle Id</th>
+                        <th scope="col">Vehicle Number</th>
+                        <th scope="col">Vehicle Desc</th>
+                        <th scope="col">Vehicle Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (vehicleMasters != null)
+                    {
+                        @foreach (ProTracker_TO.VehicleMaster Vehicle in vehicleMasters)
+                        {
+                            if (!IsVisible(Vehicle))
+                                continue;
+                            <tr class="pointer" @onclick="@((e) => Displayrec(Vehicle))">
+                                <td>@Vehicle.vm_Vehicle_Id </td>
+                                <td>@Vehicle.vm_Vehicle_Number </td>
+                                <td>@Vehicle.vm_Vehicle_desc</td>
+                                <td>@Vehicle.vm_Status </td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </EditForm>
+</body>

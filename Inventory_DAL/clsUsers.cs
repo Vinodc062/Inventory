@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Data;
 using ProTracker_DAL.AccessObject;
-using ProTracker_DAL.TableObjects;
+using ProTracker_TO;
 
 namespace ProTracker_DAL
 {

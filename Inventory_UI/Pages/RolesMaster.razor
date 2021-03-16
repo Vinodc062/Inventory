@@ -1,0 +1,68 @@
+﻿@page "/RoleMaster"
+@using ProTracker_TO;
+
+<h3>RolesMaster</h3>
+
+<body>
+    <EditForm Model="@rm">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group row">
+            <label for="txtRoleId" class="col-sm-2 col-form-label">Role Id</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="rm.rm_RoleId" readonly class="form-control-plaintext border" id="txtRoleId">
+            </div>
+        </div>
+        <div class="form-group row">
+            <ValidationMessage For=" () => rm.rm_RoleName" />
+            <label for="txtRoleName" class="col-sm-2 col-form-label">Role Name</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="rm.rm_RoleName" class="form-control-plaintext border" id="txtRoleName">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="chkRoleStatus" class="col-sm-2 col-form-label">Status</label>
+            <div class="col-sm-5">
+                <input type="checkbox" @bind="rm.rm_Status" class="form-control-plaintext border align-content-lg-start" id="chkRoleStatus">
+            </div>
+        </div>
+        <div class="form-group row">
+            <button type="submit" @onclick="@CreateRole" class="btn btn-primary">Save</button>
+            <div class="col-sm-5">
+                <button class="btn btn-danger" @onclick="@RedirectHomePage">Cancel</button>
+            </div>
+        </div>
+        <div>
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Filter..."
+                       @bind="Filter"
+                       @bind:event="oninput">
+            </div>
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Role Id</th>
+                        <th scope="col">Role Name</th>
+                        <th scope="col">Role Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (roleMasters != null)
+                    {
+                        @foreach (RoleMaster role in roleMasters)
+                        {
+                            if (!IsVisible(role))
+                                continue;
+                            <tr class="pointer" @onclick="@((e) => Displayrec(role))">
+                                <td>@role.rm_RoleId</td>
+                                <td>@role.rm_RoleName</td>
+                                <td>@role.rm_Status</td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </EditForm>
+</body>

@@ -1,0 +1,9 @@
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\bin\Debug\netstandard2.0\ProTracker_TO.deps.json
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\bin\Debug\netstandard2.0\ProTracker_TO.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\bin\Debug\netstandard2.0\ProTracker_TO.pdb
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.AssemblyInfoInputs.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.AssemblyInfo.cs
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.csproj.CoreCompileInputs.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.pdb
+C:\Vinod\Personal\InventoryGIT\Inventory\ProTracker_TO\obj\Debug\netstandard2.0\ProTracker_TO.csprojAssemblyReference.cache

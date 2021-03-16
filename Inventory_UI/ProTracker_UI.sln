@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProTracker_DAL", "..\Invent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProTracker_API", "..\Inventory_API\ProTracker_API.csproj", "{842328E9-F36B-4CA4-B83B-3BB10DCEB16D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProTracker_TO", "..\ProTracker_TO\ProTracker_TO.csproj", "{AF0F6E45-CC77-4F39-9D88-F4DC9ECC8C96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{842328E9-F36B-4CA4-B83B-3BB10DCEB16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842328E9-F36B-4CA4-B83B-3BB10DCEB16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842328E9-F36B-4CA4-B83B-3BB10DCEB16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0F6E45-CC77-4F39-9D88-F4DC9ECC8C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0F6E45-CC77-4F39-9D88-F4DC9ECC8C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0F6E45-CC77-4F39-9D88-F4DC9ECC8C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0F6E45-CC77-4F39-9D88-F4DC9ECC8C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

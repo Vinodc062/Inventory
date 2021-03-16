@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H+cmHmPkjSQsSvcxeJaKGeULI3lnI8cyPaoWS8LndO4LRJDM+pPSd0U6RmgrKXYTDdTClz10p6m6HwQBUOch9w==",
+  "dgSpecHash": "sEaQBKb/4AfZ7RuANt3AkxYyhvUnBFbFC0JEJjfSeUyFiYyV484AWeq0Zt+1bx8KNE5RA1f0XD+enriFCi/e5Q==",
   "success": true,
   "projectFilePath": "C:\\Vinod\\Personal\\InventoryGIT\\Inventory\\Inventory_DAL\\ProTracker_DAL.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\chandavk\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\chandavk\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\chandavk\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\chandavk\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"

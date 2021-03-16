@@ -35,3 +35,6 @@ C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Debug\net5.0\ProTrack
 C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Debug\net5.0\ref\ProTracker_API.dll
 C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Debug\net5.0\ProTracker_API.pdb
 C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\obj\Debug\net5.0\ProTracker_API.genruntimeconfig.cache
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\bin\Debug\net5.0\ProTracker_TO.dll
+C:\Vinod\Personal\InventoryGIT\Inventory\Inventory_API\bin\Debug\net5.0\ProTracker_TO.pdb

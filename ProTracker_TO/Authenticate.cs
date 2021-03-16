@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProTracker_DAL.TableObjects
+namespace ProTracker_TO
 {
    public class Authenticate
     {

@@ -1,0 +1,69 @@
+﻿@page "/RackMaster"
+<h3>RackMaster</h3>
+<body>
+    <EditForm Model="rackMaster">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group row">
+            <label for="txtRackId" class="col-sm-2 col-form-label">Role Id</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="rackMaster.rak_Rack_Id" readonly class="form-control-plaintext border" id="txtRackId">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <ValidationMessage For=" () => rackMaster.rak_Rack_Number" />
+            <label for="txtRackNumber" class="col-sm-2 col-form-label">Rack Number</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="rackMaster.rak_Rack_Number" class="form-control-plaintext border" id="txtRackNumber">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <ValidationMessage For=" () => rackMaster.rak_Rack_Name" />
+            <label for="txtRackName" class="col-sm-2 col-form-label">Rack Name</label>
+            <div class="col-sm-5">
+                <input type="text" @bind="rackMaster.rak_Rack_Name" class="form-control-plaintext border" id="txtRackName">
+            </div>
+        </div>
+        <div class="form-group row">
+            <button type="submit" @onclick="@CreateRole" class="btn btn-primary">Save</button>
+            <div class="col-sm-5">
+                <button class="btn btn-danger" @onclick="@RedirectHomePage">Cancel</button>
+            </div>
+        </div>
+        <div>
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Filter..."
+                       @bind="Filter"
+                       @bind:event="oninput">
+            </div>
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Rack Id</th>
+                        <th scope="col">Rack Number</th>
+                        <th scope="col">Rack Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (rackMasters != null)
+                    {
+                        @foreach (ProTracker_TO.RackMaster rack in rackMasters)
+                        {
+                            if (!IsVisible(rack))
+                                continue;
+                            <tr class="pointer" @onclick="@((e) => Displayrec(rack))">
+                                <td>@rack.rak_Rack_Id </td>
+                                <td>@rack.rak_Rack_Number </td>
+                                <td>@rack.rak_Rack_Name </td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </EditForm>
+</body>
